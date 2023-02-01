@@ -6,7 +6,8 @@ module.exports = function(app) {
     app.use(
         //createProxyMiddleware('/api', {
 		createProxyMiddleware('/api',{
-			target: 'http://localhost:5000/',
+			//target: 'http://localhost:5000/',
+			target: 'https://olleh-farm.onrender.com/',
             //target: 'http://192.168.0.41:3000'
             //target: 'http://humaster.iptime.org',
 			//target: 'http://nginx:8080',
