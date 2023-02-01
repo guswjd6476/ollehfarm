@@ -208,6 +208,13 @@ const Autocontrol = () => {
       dataIndex: 'time',
       key : "time",
       width : 200,
+      render: (text, row, index) => {
+        return (
+          <>
+           {row.time} AM
+          </>
+        )
+          },
       
     },
     // {
@@ -271,8 +278,16 @@ const Autocontrol = () => {
     {
       title: '시간',
       dataIndex: 'time',
+      key : "time",
       width : 200,
-      key : 'time'
+      render: (text, row, index) => {
+        return (
+          <>
+           {row.time} PM
+          </>
+        )
+          },
+      
     },
     {
       title: '온도',
