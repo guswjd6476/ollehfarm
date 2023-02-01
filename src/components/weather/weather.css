@@ -1,0 +1,32 @@
+
+.detailweather{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.detailweather .temp_box{
+	width: 50%;
+}
+
+.detailbox .dbox{
+	display: flex;
+}
+.dboxt{
+	margin-right: 10px;
+	font-weight: 900;
+}
+.temperature{
+	font-size: 30px;
+	font-weight: 900;
+	text-align: center;
+}
+.description{
+	font-size: 14px;
+	text-align: center;
+	font-weight: 700;
+	color: rgb(80, 78, 78);
+}
+.dbox{
+	font-size: 14px;
+}
