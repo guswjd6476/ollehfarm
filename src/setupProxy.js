@@ -6,7 +6,7 @@ module.exports = function(app) {
     app.use(
         //createProxyMiddleware('/api', {
 		createProxyMiddleware('/api',{
-			target: 'http://localhost:8000/',
+			target: 'http://localhost:3000/',
             //target: 'http://192.168.0.41:3000'
             //target: 'http://humaster.iptime.org',
 			//target: 'http://nginx:8080',
