@@ -500,6 +500,7 @@ function Cultivation_control() {
     //       console.log(error)
     //     })
     // })
+    console.log(window.location.port,'??????')
     useInterval(() => {
       axios
         .get('/api/gettemp',{
