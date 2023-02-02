@@ -178,6 +178,7 @@ const Autocontrol = () => {
       params: {
         id : idx + 1,
         temp: values[idx].temp,
+        hum : values[idx].humidity,
       }
     })
       .then(function (response) {
@@ -192,6 +193,7 @@ const Autocontrol = () => {
       params: {
         id : idx + 13,
         temp: values[idx].temp,
+        hum : values[idx].humidity,
       }
     })
       .then(function (response) {

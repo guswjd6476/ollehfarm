@@ -4,9 +4,9 @@ import { useState } from 'react';
 import { useNavigate , Link,useLocation} from 'react-router-dom';
 const items = [
   {
-    label: <Link  to={"/Main"}  >홈</Link>,
-    key: '/Main',
-    path:"/Main" ,
+    label: <Link  to={"/"}  >홈</Link>,
+    key: '/',
+    path:"/" ,
     icon: <HomeOutlined />,
   },
   {

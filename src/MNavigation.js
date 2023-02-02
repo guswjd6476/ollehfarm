@@ -46,7 +46,7 @@ const MNavigation = () => {
 },[navi])
   return (
     <div className='mobile_btn_wrap' ref={el} >
-    <Link className='mobile_title'  to={"/Main"}  >OLLEHFARM</Link>
+    <Link className='mobile_title'  to={"/"}  >OLLEHFARM</Link>
     <Button className='mobile_btn' onClick={()=>setNavi(!navi)}>{navi ? <MenuFoldOutlined /> : <MenuUnfoldOutlined />}</Button>
     {navi ? 
     <Menu 

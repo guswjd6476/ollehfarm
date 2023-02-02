@@ -1,4 +1,4 @@
-.tab1 .customButton {
+.humicon_box .customButton {
     cursor: pointer;
     position: relative;
     
@@ -15,6 +15,7 @@
     animation:  5s ease infinite;
     background-color: #1f507f; 
     }
+  
 .disabled{
     cursor: pointer;
     position: relative;
@@ -28,7 +29,7 @@
     border: none;
 }
 
-.tab1 .disabled:nth-child(9), .tab1 .publishdisabled{
+.humicon_box .disabled:nth-child(9), .humicon_box .publishdisabled{
     width: calc(50% - 5px);
     cursor: pointer;
         position: relative;
@@ -43,7 +44,7 @@
         border: none;
 }
 
-.tab1 .customButton:nth-child(9), .tab1 .publishButton {
+.humicon_box .customButton:nth-child(9), .humicon_box .publishButton {
         cursor: pointer;
         position: relative;
         
@@ -78,14 +79,14 @@
     background-color: #1f507f; 
     }
   
-.tab1 .active{
+.humicon_box .active{
     background-color: rgb(255, 255, 255);
     /*border: 1.5px solid rgb(249, 248, 255);*/
     background: lightblue;
     color: #000;
 
     }
-.tab1 .customButton:hover{
+.humicon_box .customButton:hover{
     color: #fff; 
 }
 

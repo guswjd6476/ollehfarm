@@ -87,6 +87,9 @@
         position: absolute;
         right: 0;
         top: 40px;
+        width: 260px;
+        padding: 10px;
+        background-color: rgba(117, 210, 233, 0.5);
     }
     .control_box{
         width: 100% !important

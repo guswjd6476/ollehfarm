@@ -12,7 +12,7 @@ const AppRouter = ()=> {
           <BrowserRouter>
             <Navigation/>
             <Routes>
-                <Route path="/Main" element={<Main/>} />
+                <Route path="/" element={<Main/>} />
                 <Route path="/Autocontrol" element={<Autocontrol/>} />
                 <Route path="/Cultivation" element={<Cultivation/>} />
                 <Route path="/Glasscontrol" element={<Glasscontrol/>} />
@@ -29,7 +29,7 @@ const MAppRouter = ()=> {
         <BrowserRouter>
           <MNavigation/>
           <Routes>
-              <Route path="/Main" element={<Main/>} />
+              <Route path="/" element={<Main/>} />
               <Route path="/Autocontrol" element={<Autocontrol/>} />
               <Route path="/Cultivation" element={<Cultivation/>} />
               <Route path="/Glasscontrol" element={<Glasscontrol/>} />

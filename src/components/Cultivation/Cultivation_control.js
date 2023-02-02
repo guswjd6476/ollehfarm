@@ -504,8 +504,7 @@ function Cultivation_control() {
       axios
         .get('/api/gettemp',{
           params: {
-            num : '01',
-            cmd : 'F008D14CF85A'
+            num : '01'
           }
         })
         .then(function (response) {
